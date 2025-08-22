@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => ({
 		host: "::",
 		port: 8080,
 	},
+	preview: {
+		allowedHosts: ["au-youth-division.onrender.com"],
+	},
 	plugins: [react()],
 	resolve: {
 		alias: {
